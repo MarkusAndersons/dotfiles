@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ln -s $HOME/.dotfiles/fish/config.fish ~/.config/fish/config.fish
+mkdir ~/.config/fish/functions
+ln -s $HOME/.dotfiles/fish/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
+ln -s $HOME/.dotfiles/vim/.vimrc $HOME/.vimrc
+ln -s $HOME/.dotfiles/bash/.bash_profile $HOME/.bash_profile
